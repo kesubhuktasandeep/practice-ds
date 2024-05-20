@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Plagiarism Detection</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Image Plagiarism Detection</h1>
+    <form action="/detect" method="post" enctype="multipart/form-data">
+        <input type="file" name="image1" accept="image/*" required>
+        <input type="file" name="image2" accept="image/*" required>
+        <button type="submit">Detect Plagiarism</button>
+    </form>
+    <p id="result"></p>
+</body>
+</html>
